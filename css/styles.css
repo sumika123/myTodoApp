@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+html * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body {
+    background-color: #eee;
+}
+h1 {
+    color: #fff;
+    font-family: sans-serif;
+    text-shadow: 0px 0px 10px #666;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    font-size: 3em;
+    margin: 5% auto;
+    width: 50%;
+    text-align: center;
+}
+.formarea {
+    width:50%;
+    margin: auto;
+    background-color: #fff;
+    min-height: 150px;
+    border-radius: 5px;
+    box-shadow:0px 0px 15px #aaa;
+    padding: 3%;
+}
+input {
+    width: 100%;
+    border: 1px #ccc solid;
+    height: 2em;
+    margin: 0 0 1em;
+}
+#todolist {
+    list-style: none;    
+}
+#todolist li {
+    margin: 0 0 1em;
+    padding: 0.5em;
+    border-bottom: 1px #ccc solid;
+}
+p {
+    color: #ccc;
+}
